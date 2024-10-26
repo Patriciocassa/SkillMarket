@@ -1,0 +1,37 @@
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+ul.nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+}
+ul.nav li {
+  margin: 0 15px;
+}
+ul.nav a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+img.A {
+  width: auto; 
+  height: 200px;
+  object-fit: cover;
+}
+.card-body{
+  padding-bottom: 1%;
+}
+h2{
+  margin: 1%;
+}
+.col-md-6{
+  margin-top: 1%;
+}
+h2{
+  margin-top: 2%;
+}
