@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillMarket</title>
+    <link rel="shortcut icon" href="imagenes/LOGO3.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="imagenes/SMLOGO2.png" alt="Bootstrap" width="140" height="60">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link px-2 text-success" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-success" aria-current="page" href="index3.html">Find Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2 text-success" aria-current="page" href="index2.html">Find Jobs</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+  <main>
+
+  <div class="container mt-5 mb-5" style="width: 68rem;">
+    <div class="card" style="width: 60rem;">
+      <div class="card-header">
+        <h3>Request a Job</h3>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><h4>Job Title</h4><input class="form-control form-control-lg" type="text" placeholder="Work Request..." aria-label=".form-control-lg example"></li>
+        <li class="list-group-item"><label for="formGroupExampleInput" class="form-label"><h4>Job Description</h4></label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Work Details ..."></li>
+        <li class="list-group-item"><div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="inputPrice6" class="col-form-label">Job Price</label>
+          </div>
+          <div class="col-auto">
+            <input type="price" id="inputPrice6" class="form-control" aria-describedby="priceHelpInline">
+          </div>
+          <div class="col-auto">
+            <span id="HelpInline" class="form-text">
+              Consider lower prices won't attract as many skills.
+            </span>
+        </div></li>
+        <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-center"><button class="btn btn-secondary me-md-2" type="button">Post Job</button></li>
+      </ul>
+    </div>
+
+    <br><h2 class="text-center">Work Offers</h2>
+
+    <div class="container mt-5 mb-5" style="width: 68rem;">
+      <div class="card" style="width: 60rem;">
+        <div class="card-header">
+        <img src="imagenes/R-B.jpg" class="rounded-circle border A" width="40"><h6>Nicolas Cassáro</h6><h6 class="text-primary">Level 8</h6>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item text-center"><h4>Looking for a Web Developer</h4></li>
+          <li class="list-group-item"><h5>Job Description</h5><p>Im searching for skilled developers available to help me in our economics project, must have experience in E-commerce development.</p></li>
+          <li class="list-group-item"><h5>Price Asked: $195</h5></li>
+          <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-center"><button class="btn btn-success me-md-2" type="button">Send Proposal</button>
+        </ul>
+      </div>
+
+      <div class="container mt-5 mb-5" style="width: 68rem;">
+        <div class="card" style="width: 60rem;">
+          <div class="card-header">
+          <img src="imagenes/R-E.png" class="rounded-circle border A" width="40"><h6>Nacho Chirieleison</h6><h6 class="text-primary">Level 5</h6>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center"><h4>I need a logo designer</h4></li>
+            <li class="list-group-item"><h5>Job Description</h5><p>Im looking to hire a graphic designer experienced in logo desing, you should be able to adapt to my requests and follow my ideas.</p></li>
+            <li class="list-group-item"><h5>Price Asked: $60</h5></li>
+            <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-center"><button class="btn btn-success me-md-2" type="button">Send Proposal</button>
+          </ul>
+        </div>
+
+        <div class="container mt-5 mb-5" style="width: 68rem;">
+          <div class="card" style="width: 60rem;">
+            <div class="card-header">
+            <img src="imagenes/R-D.jpg" class="rounded-circle border A" width="40"><h6>Octavio Vidal</h6><h6 class="text-primary">Level 2</h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center"><h4>Help with thesis writing</h4></li>
+              <li class="list-group-item"><h5>Job Description</h5><p>I need someone to review the progress on my social studies thesis, I need detailed feedback.</p></li>
+              <li class="list-group-item"><h5>Price Asked: $20</h5></li>
+              <li class="list-group-item"><div class="d-grid gap-2 d-md-flex justify-content-md-center"><div class="d-grid gap-2 d-md-flex justify-content-md-end"><button class="btn btn-success me-md-2" type="button">Send Proposal</button>
+            </ul>
+          </div>
+  
+
+
+      </main>
+    </body>
+</html>
